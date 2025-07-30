@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+<header>
+  <h1>My Portfolio</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#resume">Resume</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <img src="abcd.png" alt="Your Photo">
+  <h2>SHUBHAM RAJ</h2>
+<p>Hi! I'm a computer science enthusiast who enjoys building websites and exploring the world of cybersecurity, always eager to learn and grow with every project.</p></section>
+
+<section id="about">
+  <h2>About Me</h2>
+<P>Hello! I'm Shubham, a college student currently pursuing a degree in Computer Science. I’m passionate about exploring the world of technology, with a particular interest in Web Development and Cybersecurity. Whether it's building user-friendly websites or understanding the foundations of digital security, I enjoy solving problems and learning how things work under the hood.
+
+  I consider myself a positive-minded, dedicated, and hardworking individual who believes that consistency and curiosity are key to success in tech.</P></section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="grid">
+    <div class="card">HTML5 / CSS3</div>
+    <div class="card">JavaScript </div>
+    <div class="card">Java</div>
+    <div class="card">Python</div>
+
+    <div class="card">SQL </div>
+  </div>
+</section>
+
+<section id="Resume">
+  <h2>Resume</h2>
+  <div class="card">
+  <a href="resume.pdf">My resume</a>
+  </div>
+
+</section>
+
+<section id="education">
+  <h2>Education</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>B.Tech in Computer Science</strong>
+      <p>Galgotias University, 2023 - 2027</p>
+    </div>
+    <div class="card">
+      <strong>Senior Secondary</strong>
+      <p>Kendriya Vidyalaya , 2020 - 2022</p>
+    </div>
+  </div>
+</section>
+
+<section id="certifications">
+  <h2>Certifications</h2>
+  <div class="grid">
+    <div class="card">
+      <strong>JAVA</strong>
+      <p>Java for beginner Certification - GUVI</p>
+    </div>
+    <div class="card">
+      <strong>Database Design</strong>
+      <p>Database Design certificate - Oracle</p>
+    </div>
+  </div>
+  <br>
+  <div class="card">
+    <strong>PYTHON</strong>
+    <P>100 days of Python certificate - GUVI</P>
+  </div>
+  <br>
+    <div class="card">
+      <strong>Artificial Inteligence</strong>
+      <P>Bring AI to work workshop - Google</P>
+    </div>
+
+
+    </divclass></div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: rajshu610@gmail.com</p>
+  <p>Phone: +91-9135497945</p>
+</section>
+
+<footer>
+  &copy; 2025 Shubham. All rights reserved.
+</footer>
+</body>
+</html>
